@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(200,214,166);
+}
+
+table {
+  margin: 0 auto;
+  border: 15px solid salmon;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+td {
+  border: 3px solid salmon;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  text-align: center;
+  line-height: 17px;
+  background-color: #eee;
+  &.selected {
+    background-color: #dc3545;
+    color: white;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button {
+  margin: 20px 7px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
