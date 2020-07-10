@@ -1,16 +1,16 @@
 body {
-  background-color: #c8d6a6;
+  background-color: lightskyblue;
 }
 
 table {
   margin: 0 auto;
-  border: 15px solid salmon;
+  border: 15px solid pink;
   border-radius: 15px;
   box-shadow: 10px 10px 8px #888888;
 }
 
 td {
-  border: 3px solid salmon;
+  border: 3px solid pink;
   width: 120px;
   height: 120px;
   padding: 10px;
