@@ -13,6 +13,7 @@
   </head>
   <body>
     <h1>GameboiLight Bingo</h1>
+    <h4>Mode: <span id="gameMode">5 in a row</span></h4>
 
     <table>
       <tr>
@@ -53,8 +54,42 @@
     </table>
 
     <div class="d-flex justify-content-center">
-      <button id="newCard" class="btn btn-info btn-lg">New Card</button>
+      <button class="btn btn-info btn-lg newCard">New Card</button>
       <button id="clear" class="btn btn-danger btn-lg">Clear</button>
+    </div>
+    
+    <div class="modal" data-backdrop="static" tabindex="-1" role="dialog" id="winModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Bingo Winner!</h5>
+          </div>
+          <div class="modal-body">
+            <p>You won bingo! Keep Going for blackout?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info" id="blackoutButton">Yes</button>
+            <button type="button" class="btn btn-danger gameOver" data-dismiss="modal">No</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" data-backdrop="static" tabindex="-1" role="dialog" id="ultimateWinModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Blackout Bingo Winner!</h5>
+          </div>
+          <div class="modal-body">
+            <p>Wow, you hit every square. You are too lucky. Play again?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info newCard" data-dismiss="modal">Yes</button>
+            <button type="button" class="btn btn-danger gameOver" data-dismiss="modal">No</button>
+          </div>
+        </div>
+      </div>
     </div>
 
 
