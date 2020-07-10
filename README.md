@@ -1,2 +1,2 @@
-# ZzayphodBingo
-Bingo for Twitch.tv/Zzayphod
+# LightBingo
+Bingo for https://twitch.tv/gameboilight
