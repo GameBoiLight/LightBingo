@@ -12,7 +12,7 @@ var spaces = [
 "Light sings a song, chat warns him about DMCA",
 "Talking about food again",
 "ftftftftftftft",
-"Joe hates other Joes",
+"Chat bullies Light with sound effects",
 "Light has a plan that doesn't work out",
 "Light pretends to stop streaming",
 "Gifted sub to a funny name",
