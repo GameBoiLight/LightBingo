@@ -27,7 +27,18 @@ var spaces = [
 "Quote is added",
 "Subs are gifted",
 "Light dies in a hilarious way that is 100% his fault",
-"Light makes a pass at Zzayphod"
+"Light makes a pass at Zzayphod",
+"Light Simps for Ray",
+"Light drinks Red Bull",
+"5 Mods at once",
+"Twitch Prime sell out",
+"Light makes an MCU reference",
+"New follow",
+"A pro strat that's not a pro strat",
+"Giselle gets angry at something unrelated to stream",
+"Light has a stroke/flubs a word",
+"Train Whistle",
+"Light pops off in-game",
 ];
 
 var gameOver = false;
