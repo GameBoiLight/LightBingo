@@ -39,6 +39,11 @@ var spaces = [
 "Light has a stroke/flubs a word",
 "Train Whistle",
 "Light pops off in-game",
+"Joe space ruins a blackout or Bingo",
+"Bustin",
+"Waluigi Time",
+"Technical difficulties",
+"FramteRateMerch.com shoutout",
 ];
 
 var gameOver = false;
