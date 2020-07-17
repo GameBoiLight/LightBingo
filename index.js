@@ -43,7 +43,7 @@ var spaces = [
 "Bustin",
 "Waluigi Time",
 "Technical difficulties",
-"FramteRateMerch.com shoutout",
+"FrameRate Merch shoutout",
 ];
 
 var gameOver = false;
