@@ -16,7 +16,7 @@ var spaces = [
 "Light has a plan that doesn't work out",
 "Light pretends to stop streaming",
 "Gifted sub to a funny name",
-"Someone gets banned for real",
+"First time pizza winner",
 "Tier 2 Sub",
 "Tier 3 Sub",
 "Someone Backseats",
@@ -44,6 +44,8 @@ var spaces = [
 "Waluigi Time",
 "Technical difficulties",
 "FrameRate Merch shoutout",
+"Light describes a fake speed run strat",
+"Pizza eaten on a day other than Friday",
 ];
 
 var gameOver = false;
