@@ -6,7 +6,6 @@ var spaces = [
 "Light throws at the last second",
 "Hype train",
 "Talk about Food",
-"Joe gets mad at Light",
 "BLAP BLAP",
 "Light talks about a dumb Apple customer",
 "Light sings a song, chat warns him about DMCA",
@@ -39,13 +38,13 @@ var spaces = [
 "Light has a stroke/flubs a word",
 "Train Whistle",
 "Light pops off in-game",
-"Joe space ruins a blackout or Bingo",
 "Bustin",
 "Waluigi Time",
 "Technical difficulties",
 "FrameRate Merch shoutout",
 "Light describes a fake speed run strat",
 "Pizza eaten on a day other than Friday",
+"Pizza for Everyone Alert",
 ];
 
 var gameOver = false;
