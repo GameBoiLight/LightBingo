@@ -22,6 +22,16 @@ var spaces = [
 "Branded Fusion gets Negated",
 "Aluber gets Negated",
 "Opponent uses Effect Veiler",
+"Opponent plays Mathmech",
+"Opponent plays Spright",
+"Normal Summon Aleister",
+"MOMMY MILKERS",
+"Opponent plays Sky Strikers",
+"Opponent activates Super Poly",
+"Opponent Sets 1 and passes",
+"OTK",
+"Opponent plays Swordsoul",
+"Light loses to Magic Cylinder",
 ];
 
 var gameOver = false;
