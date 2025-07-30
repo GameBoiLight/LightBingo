@@ -4,7 +4,7 @@
   true - show the free space.
   false - don't show the free space.
 */
-var showFreeSpace = true;
+var showFreeSpace = false;
 
 var spaces = [
 "Dark Souls: Invaded",
