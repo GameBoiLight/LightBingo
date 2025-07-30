@@ -1,5 +1,11 @@
 (function(){
 
+/*
+  true - show the free space.
+  false - don't show the free space.
+*/
+var showFreeSpace = true;
+
 var spaces = [
 "Dark Souls: Invaded",
 "SMO: Both Jumprope Moons",
@@ -31,8 +37,15 @@ var spaces = [
 var gameOver = false;
 var blackout = false;
 
+if (showFreeSpace) {
+  $('td#freeSpace').toggleClass('selected');
+  $('td#freeSpace').text('FREE SPACE');
+}
 
-$('td').not("#freeSpace").click(function(){
+$('td').click(function(){
+  if ($(this)[0].id == 'freeSpace' && showFreeSpace) {
+    return false;
+  }
   if(gameOver === true){
     return;
   }
@@ -66,12 +79,22 @@ $('td').not("#freeSpace").click(function(){
 })
 
 $('#clear').click(function(){
-  $('td').not("#freeSpace").removeClass('selected');
+  if (showFreeSpace) {
+    $('td').not("#freeSpace").removeClass('selected');
+  }
+  else {
+    $('td').removeClass('selected');
+  }
   gameOver = false;
 })
 
 $('.newCard').click(function(){
-  $('td').not("#freeSpace").removeClass('selected');
+  if (showFreeSpace) {
+    $('td').not("#freeSpace").removeClass('selected');
+  }
+  else {
+    $('td').removeClass('selected');
+  }
   randomizeSquares();
   gameOver = false;
   blackout = false;
@@ -90,7 +113,11 @@ $('#blackoutButton').click(function (){
 
 function randomizeSquares (){
   var uniqueArray = spaces.slice(0);
-  $('td').not("#freeSpace").each(function(){
+  $('td').each(function(){
+    if ($(this)[0].id === 'freeSpace' && showFreeSpace) {
+      return;
+    }
+
     var rand = Math.floor(Math.random() * uniqueArray.length);
     $(this).text(uniqueArray[rand]);
     uniqueArray.splice(rand, 1);
