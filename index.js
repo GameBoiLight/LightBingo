@@ -8,15 +8,15 @@ var showFreeSpace = false;
 
 var spaces = [
 "Dark Souls: Invaded",
-"SMO: Both Jumprope Moons",
+"SMO: Jumprope Moon",
 "RCT2: 1000 Guests",
 "Balatro: $100 Dollars",
-"Peak: Eat Purple Bananas",
+"Peak: Eat Purple Food item",
 "Dark Souls: Kill 5 NPC",
 "SMO: Nipple Mario",
 "RCT2: Pizza Stall",
 "Balatro: Royal Flush",
-"Peak: Pass out via Cold",
+"Peak: Pass out via Heat/Cold",
 "Dark Souls: Consume Moss",
 "SMO: 3 Golden Turnip Moons",
 "RCT2: 5 Different Coasters",
